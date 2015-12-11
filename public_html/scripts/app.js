@@ -36,6 +36,7 @@ define([
                 var audio = new Audio(audioOgg);
                 audio.play();            
         });
+        
     }
     
     return {
