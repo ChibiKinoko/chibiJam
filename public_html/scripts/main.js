@@ -10,16 +10,9 @@ require.config({
     }
 });
 
-require(['jquery', 'bootstrap'], function (toto, bootstrap) {
+require(['bootstrap'], function (Bootstrap) {
  
-    // do something with the loaded modules
-    //console.log('jQuery version:', $.fn.jquery); // 1.11.3
-    
-    toto('#wrapper').click(function () {
-        alert('toto');
-    });
-    
-    //bootstrap.init();
+    Bootstrap.init();
  
 });
 

@@ -9,15 +9,16 @@ define([
     'app'
     
 ], function (app){
-//    function init () {
-//        console.log('init done !');
-//    }
-//    
-//    return {
-//        init: init
-//    };
-
-    app.start();
     
-    return;
+    'use strict';
+    
+    function init () {
+       // console.log('init done !');
+        app.start();
+    }
+    
+    return {
+        init: init
+    };
+  
 });
